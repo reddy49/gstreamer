@@ -1,0 +1,129 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASL_DEFAULT_RES_IDX	veml.c	131;"	d	file:
+ASL_DEFAULT_RES_IDX	veml6060_drv.c	132;"	d	file:
+CMD_CODE_ALS	veml6060_drv.h	48;"	d
+CMD_CODE_ALS_CFG	veml6060_drv.h	44;"	d
+CMD_CODE_ALS_INT	veml6060_drv.h	50;"	d
+CMD_CODE_ALS_WH	veml6060_drv.h	45;"	d
+CMD_CODE_ALS_WL	veml6060_drv.h	46;"	d
+CMD_CODE_POWER_SAVING	veml6060_drv.h	47;"	d
+CMD_CODE_WHITE	veml6060_drv.h	49;"	d
+E_ALS_IT_100	veml6060_drv.h	/^    E_ALS_IT_100 = 0b0000,     \/* 100ms *\/$/;"	e	enum:__anon10
+E_ALS_IT_200	veml6060_drv.h	/^    E_ALS_IT_200 = 0b0001,     \/* 200ms *\/$/;"	e	enum:__anon10
+E_ALS_IT_25	veml6060_drv.h	/^    E_ALS_IT_25  = 0b1100     \/* 25ms *\/$/;"	e	enum:__anon10
+E_ALS_IT_400	veml6060_drv.h	/^    E_ALS_IT_400 = 0b0010,     \/* 400ms *\/$/;"	e	enum:__anon10
+E_ALS_IT_50	veml6060_drv.h	/^    E_ALS_IT_50  = 0b1000,     \/* 50ms *\/$/;"	e	enum:__anon10
+E_ALS_IT_800	veml6060_drv.h	/^    E_ALS_IT_800 = 0b0011,      \/* 800ms *\/$/;"	e	enum:__anon10
+E_ALS_IT_T	veml6060_drv.h	/^} E_ALS_IT_T;$/;"	t	typeref:enum:__anon10
+E_DISABLE	veml6060_drv.h	/^    E_DISABLE = 0X0,$/;"	e	enum:__anon11
+E_ENABLE	veml6060_drv.h	/^    E_ENABLE = ! E_DISABLE$/;"	e	enum:__anon11
+E_GAIN_1	veml6060_drv.h	/^    E_GAIN_1   = 0b00,\/* als gain 1 *\/$/;"	e	enum:__anon9
+E_GAIN_1_4	veml6060_drv.h	/^    E_GAIN_1_4 = 0b11,\/* als gain 1\/4 *\/$/;"	e	enum:__anon9
+E_GAIN_1_8	veml6060_drv.h	/^    E_GAIN_1_8 = 0b10,\/* als gain 1\/8 *\/$/;"	e	enum:__anon9
+E_GAIN_2	veml6060_drv.h	/^    E_GAIN_2   = 0b01,\/* als gain 2 *\/$/;"	e	enum:__anon9
+E_GAIN_END	veml6060_drv.h	/^    E_GAIN_END$/;"	e	enum:__anon9
+E_GAIN_T	veml6060_drv.h	/^} E_GAIN_T;$/;"	t	typeref:enum:__anon9
+E_PWR_DOWN	veml6060_drv.h	/^    E_PWR_DOWN = ! E_PWR_ON$/;"	e	enum:__anon12
+E_PWR_ON	veml6060_drv.h	/^    E_PWR_ON = 0X0,$/;"	e	enum:__anon12
+E_PWR_T	veml6060_drv.h	/^} E_PWR_T;$/;"	t	typeref:enum:__anon12
+E_STATUS_T	veml6060_drv.h	/^} E_STATUS_T;$/;"	t	typeref:enum:__anon11
+FALSE	veml6060_drv.h	35;"	d
+INTEGRATION_TIME	veml.c	104;"	d	file:
+INTEGRATION_TIME	veml6060_drv.c	105;"	d	file:
+S32	veml6060_drv.h	/^typedef int32_t S32;$/;"	t
+S8	veml6060_drv.h	/^typedef int8_t S8;$/;"	t
+STATUS_SUCCESS	veml6060_drv.h	38;"	d
+S_VEML_ADJUST_TBL	veml.c	/^} S_VEML_ADJUST_TBL;$/;"	t	typeref:struct:__anon6	file:
+S_VEML_ADJUST_TBL	veml6060_drv.c	/^} S_VEML_ADJUST_TBL;$/;"	t	typeref:struct:__anon2	file:
+S_VEML_CCB	veml.c	/^} S_VEML_CCB;$/;"	t	typeref:struct:__anon8	file:
+S_VEML_CCB	veml6060_drv.c	/^} S_VEML_CCB;$/;"	t	typeref:struct:__anon4	file:
+S_VEML_CFG_T	veml.c	/^} S_VEML_CFG_T;$/;"	t	typeref:struct:__anon5	file:
+S_VEML_CFG_T	veml6060_drv.c	/^} S_VEML_CFG_T;$/;"	t	typeref:struct:__anon1	file:
+S_VEML_RESOLUTION_TBL	veml.c	/^} S_VEML_RESOLUTION_TBL;$/;"	t	typeref:struct:__anon7	file:
+S_VEML_RESOLUTION_TBL	veml6060_drv.c	/^} S_VEML_RESOLUTION_TBL;$/;"	t	typeref:struct:__anon3	file:
+TRUE	veml6060_drv.h	34;"	d
+U16	veml6060_drv.h	/^typedef uint16_t U16;$/;"	t
+U32	veml6060_drv.h	/^typedef uint32_t U32;$/;"	t
+U8	veml6060_drv.h	/^typedef uint8_t U8;$/;"	t
+VELM_READ_VALUE_MAX	veml.c	132;"	d	file:
+VELM_READ_VALUE_MAX	veml6060_drv.c	133;"	d	file:
+VEML6030_I2C_ADDR	veml.c	46;"	d	file:
+VEML6030_I2C_ADDR	veml6060_drv.c	47;"	d	file:
+VEML6030_RES_FACTOR	veml.c	49;"	d	file:
+VEML6030_RES_FACTOR	veml6060_drv.c	50;"	d	file:
+__VEML6060_DRV_H__	veml6060_drv.h	20;"	d
+alsIt	veml.c	/^    E_ALS_IT_T  alsIt;$/;"	m	struct:__anon7	file:
+alsIt	veml6060_drv.c	/^    E_ALS_IT_T  alsIt;$/;"	m	struct:__anon3	file:
+als_gain	veml.c	/^    U16 als_gain        : 2;$/;"	m	struct:__anon5	file:
+als_gain	veml6060_drv.c	/^    U16 als_gain        : 2;$/;"	m	struct:__anon1	file:
+als_int_en	veml.c	/^    U16 als_int_en      : 1; \/\/ALS interrupt enable setting. 0 = ALS INT disable, 1 = ALS INT enable$/;"	m	struct:__anon5	file:
+als_int_en	veml6060_drv.c	/^    U16 als_int_en      : 1; \/\/ALS interrupt enable setting. 0 = ALS INT disable, 1 = ALS INT enable$/;"	m	struct:__anon1	file:
+als_it	veml.c	/^    U16 als_it          : 4;$/;"	m	struct:__anon5	file:
+als_it	veml6060_drv.c	/^    U16 als_it          : 4;$/;"	m	struct:__anon1	file:
+als_pers	veml.c	/^    U16 als_pers        : 2;$/;"	m	struct:__anon5	file:
+als_pers	veml6060_drv.c	/^    U16 als_pers        : 2;$/;"	m	struct:__anon1	file:
+als_sd	veml.c	/^    U16 als_sd          : 1; \/\/ALS shut down setting. 0=power on, 1=shutdown$/;"	m	struct:__anon5	file:
+als_sd	veml6060_drv.c	/^    U16 als_sd          : 1; \/\/ALS shut down setting. 0=power on, 1=shutdown$/;"	m	struct:__anon1	file:
+array_len	veml6060_drv.h	40;"	d
+asl_max	veml.c	/^    U32 asl_max;    \/* accuracy ambient light *\/$/;"	m	struct:__anon7	file:
+asl_max	veml6060_drv.c	/^    U32 asl_max;    \/* accuracy ambient light *\/$/;"	m	struct:__anon3	file:
+flexio_i2c_read	veml.c	/^int flexio_i2c_read(int addr, int reg, U8 *buff, int len)$/;"	f
+flexio_i2c_read	veml6060_drv.c	/^int flexio_i2c_read(int addr, int reg, U8 *buff, int len)$/;"	f
+flexio_i2c_write	veml6060_drv.c	/^int flexio_i2c_write(int addr, int reg, U8 * val, int len) {$/;"	f
+gResolutionInfTbl	veml.c	/^static const S_VEML_RESOLUTION_TBL gResolutionInfTbl[] =$/;"	v	file:
+gResolutionInfTbl	veml6060_drv.c	/^static const S_VEML_RESOLUTION_TBL gResolutionInfTbl[] =$/;"	v	file:
+gVemlAdjTbl	veml.c	/^static const S_VEML_ADJUST_TBL gVemlAdjTbl[] =$/;"	v	file:
+gVemlAdjTbl	veml6060_drv.c	/^static const S_VEML_ADJUST_TBL gVemlAdjTbl[] =$/;"	v	file:
+gain	veml.c	/^    E_GAIN_T    gain;$/;"	m	struct:__anon7	file:
+gain	veml6060_drv.c	/^    E_GAIN_T    gain;$/;"	m	struct:__anon3	file:
+m_nCurAsl	veml.c	/^    U32 m_nCurAsl;$/;"	m	struct:__anon8	file:
+m_nCurAsl	veml6060_drv.c	/^    U32 m_nCurAsl;$/;"	m	struct:__anon4	file:
+m_nCurResIdx	veml.c	/^    U8 m_nCurResIdx;    \/\/current resolution index$/;"	m	struct:__anon8	file:
+m_nCurResIdx	veml6060_drv.c	/^    U8 m_nCurResIdx;    \/\/current resolution index$/;"	m	struct:__anon4	file:
+m_nCurResolution	veml.c	/^    U32 m_nCurResolution;    \/\/current resolution index$/;"	m	struct:__anon8	file:
+m_nCurResolution	veml6060_drv.c	/^    U32 m_nCurResolution;    \/\/current resolution index$/;"	m	struct:__anon4	file:
+m_nIntEnTime	veml.c	/^    U32 m_nIntEnTime;$/;"	m	struct:__anon8	file:
+m_nIntEnTime	veml6060_drv.c	/^    U32 m_nIntEnTime;$/;"	m	struct:__anon4	file:
+m_nPrevAsl	veml.c	/^    U32 m_nPrevAsl;$/;"	m	struct:__anon8	file:
+m_nPrevAsl	veml6060_drv.c	/^    U32 m_nPrevAsl;$/;"	m	struct:__anon4	file:
+main	veml.c	/^int main(void)$/;"	f
+main	veml6060_drv.c	/^int main(void)$/;"	f
+refresh_time	veml.c	/^    U16 refresh_time;$/;"	m	struct:__anon7	file:
+refresh_time	veml6060_drv.c	/^    U16 refresh_time;$/;"	m	struct:__anon3	file:
+reserved_10	veml.c	/^    U16 reserved_10     : 1;$/;"	m	struct:__anon5	file:
+reserved_10	veml6060_drv.c	/^    U16 reserved_10     : 1;$/;"	m	struct:__anon1	file:
+reserved_13_15	veml.c	/^    U16 reserved_13_15  : 3;$/;"	m	struct:__anon5	file:
+reserved_13_15	veml6060_drv.c	/^    U16 reserved_13_15  : 3;$/;"	m	struct:__anon1	file:
+reserved_2_3	veml.c	/^    U16 reserved_2_3    : 2;$/;"	m	struct:__anon5	file:
+reserved_2_3	veml6060_drv.c	/^    U16 reserved_2_3    : 2;$/;"	m	struct:__anon1	file:
+resolution	veml.c	/^    U32 resolution;$/;"	m	struct:__anon7	file:
+resolution	veml6060_drv.c	/^    U32 resolution;$/;"	m	struct:__anon3	file:
+s_stVemlCcb	veml.c	/^static S_VEML_CCB s_stVemlCcb;$/;"	v	file:
+s_stVemlCcb	veml6060_drv.c	/^static S_VEML_CCB s_stVemlCcb;$/;"	v	file:
+status_t	veml6060_drv.h	/^typedef int status_t;$/;"	t
+step	veml.c	/^    S8  step;       \/* step need to adjust *\/$/;"	m	struct:__anon6	file:
+step	veml6060_drv.c	/^    S8  step;       \/* step need to adjust *\/$/;"	m	struct:__anon2	file:
+valueRangH	veml.c	/^    U16 valueRangH; \/* max of value range *\/$/;"	m	struct:__anon6	file:
+valueRangH	veml6060_drv.c	/^    U16 valueRangH; \/* max of value range *\/$/;"	m	struct:__anon2	file:
+valueRangL	veml.c	/^    U16 valueRangL; \/* min of value range *\/$/;"	m	struct:__anon6	file:
+valueRangL	veml6060_drv.c	/^    U16 valueRangL; \/* min of value range *\/$/;"	m	struct:__anon2	file:
+velm6030_drv_check_als	veml.c	/^static S32 velm6030_drv_check_als(U16 value)$/;"	f	file:
+velm6030_drv_check_als	veml6060_drv.c	/^static S32 velm6030_drv_check_als(U16 value)$/;"	f	file:
+velm6030_drv_init	veml.c	/^void velm6030_drv_init(void)$/;"	f
+velm6030_drv_init	veml6060_drv.c	/^void velm6030_drv_init(void)$/;"	f
+velm6030_drv_power	veml.c	/^void velm6030_drv_power(E_PWR_T pwr)$/;"	f
+velm6030_drv_power	veml6060_drv.c	/^void velm6030_drv_power(E_PWR_T pwr)$/;"	f
+velm6030_drv_power_mode	veml.c	/^void velm6030_drv_power_mode(E_STATUS_T pwrMode)$/;"	f
+velm6030_drv_power_mode	veml6060_drv.c	/^void velm6030_drv_power_mode(E_STATUS_T pwrMode)$/;"	f
+velm6030_drv_read_als	veml.c	/^S32 velm6030_drv_read_als(U32 *value)$/;"	f
+velm6030_drv_read_als	veml6060_drv.c	/^S32 velm6030_drv_read_als(U32 *value)$/;"	f
+velm6030_drv_setting	veml6060_drv.c	/^static S32 velm6030_drv_setting(S_VEML_CFG_T *cfg)$/;"	f	file:
+velm6030_drv_update_cfg	veml.c	/^static S32 velm6030_drv_update_cfg(S_VEML_CCB *pstCcb, const S_VEML_RESOLUTION_TBL *res)$/;"	f	file:
+velm6030_drv_update_cfg	veml6060_drv.c	/^static S32 velm6030_drv_update_cfg(S_VEML_CCB *pstCcb, const S_VEML_RESOLUTION_TBL *res)$/;"	f	file:
+veml_cfg_reg	veml.c	/^    S_VEML_CFG_T    veml_cfg_reg;$/;"	m	struct:__anon8	file:
+veml_cfg_reg	veml6060_drv.c	/^    S_VEML_CFG_T    veml_cfg_reg;$/;"	m	struct:__anon4	file:
