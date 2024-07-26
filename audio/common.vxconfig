@@ -1,0 +1,92 @@
+# Copyright (c) 2018-2019, 2021 Wind River Systems, Inc.
+#
+# The right to copy, distribute, modify or otherwise make use
+# of this software may be licensed only pursuant to the terms
+# of an applicable Wind River license agreement.
+
+#
+
+config AUDIO_LIB
+    bool
+    depends on !AUDIO_LIB_DISABLED
+    default n
+    help
+        Audio common libraries. This provides audio common libraries.
+
+config VX_SOUND_CORE
+    bool
+    depends on !VX_SOUND_CORE_DISABLED
+    default y
+    help
+        VxWorks Sound Subsystem. This provides a new sound framework to be compatible with the standard audio device tree.
+
+config AUDIO_LIB_VXTEST
+    bool
+    default y
+    depends on !AUDIO_LIB_VXTEST_DISABLED && (AUDIO_LIB || VX_SOUND_CORE) && VXTEST_BUILD
+    help
+        VxWorks Audio common libraries test.
+
+config AUDIO_DEMO
+    bool
+    depends on (AUDIO_LIB || VX_SOUND_CORE) && !AUDIO_DEMO_DISABLED
+    default y
+    help
+        Audio driver framework demos. This provides some audio playback and record demos.
+
+config AUDIO_DRV
+    bool
+    depends on (AUDIO_LIB || VX_SOUND_CORE) && !AUDIO_DRV_DISABLED
+    default y
+    help
+        Audio device drivers. This provides audio device drivers.
+
+config SOUND_SAMSUNG_ABOX
+    bool
+    depends on VX_SOUND_CORE && !AUDIO_LIB && AUDIO_DRV && VXBUS_BUSLIB && VXBUS_SUBSYSTEM && VXBUS_CORE && FDT && !CPU_SIMNT && !CPU_SIMLINUX && !SOUND_SAMSUNG_ABOX_DISABLED
+    default y
+    help
+        Samsung ABOX driver. This provides Samsung ABOX driver support.
+
+config AUDIO_FSL_SGTL5000
+    bool
+    depends on AUDIO_LIB && AUDIO_DRV && VXBUS_BUSLIB && VXBUS_SUBSYSTEM && VXBUS_CORE && FDT && !CPU_SIMNT && !CPU_SIMLINUX && !AUDIO_FSL_SGTL5000_DISABLED
+    default y
+    help
+        Freescale SGTL5000 audio codec driver. This provides Freescale SGTL5000 audio codec driver support.
+
+config AUDIO_FSL_SSI
+    bool
+    depends on AUDIO_LIB && AUDIO_DRV && VXBUS_BUSLIB && VXBUS_SUBSYSTEM && VXBUS_CORE && FDT && (CPU_ARMARCH7 || CPU_CORE_ARMARCH7) && !AUDIO_FSL_SSI_DISABLED
+    default y
+    help
+        Freescale SSI audio driver. This is the VxBus driver for Freescale Synchronous Serial Interface (SSI). This driver provides callback methods to support the audio library.
+
+config AUDIO_TI_AIC3106
+    bool
+    depends on AUDIO_LIB && AUDIO_DRV && VXBUS_CORE && VXBUS_BUSLIB && VXBUS_SUBSYSTEM && FDT && !CPU_SIMNT && !CPU_SIMLINUX && !AUDIO_TI_AIC3106_DISABLED
+    default y
+    help
+        TI TLV320AIC3106 audio codec driver. This is the VxBus driver for TI AIC3106 (TLV320AIC3106) which supplies audio playback and record functionality.
+
+config AUDIO_TI_MCASP
+    bool
+    depends on AUDIO_LIB && AUDIO_DRV && VXBUS_CORE && VXBUS_BUSLIB && VXBUS_SUBSYSTEM && FDT && (CPU_ARMARCH7 || CPU_CORE_ARMARCH7) && !AUDIO_TI_MCASP_DISABLED
+    default y
+    help
+        TI McASP audio driver. This is the VxBus driver for TI Multichannel Audio Serial Port (McASP). This driver provides callback methods to support the audio library.
+
+config AUDIO_VIRTUAL_AUDIO
+    bool
+    depends on AUDIO_LIB && AUDIO_DRV && !AUDIO_VIRTUAL_AUDIO_DISABLED
+    default y
+    help
+        Virtual audio driver. This layer provides support for the playback of Wav fileS.
+
+config AUDIO_WM8962
+    bool
+    depends on AUDIO_LIB && AUDIO_DRV && VXBUS_CORE && VXBUS_BUSLIB && VXBUS_SUBSYSTEM && FDT && !CPU_SIMNT && !CPU_SIMLINUX && !AUDIO_WM8962_DISABLED
+    default y
+    help
+        Wolfson Microelectronics 8962 audio codec driver. The Wolfson Microelectronics 8962 audio codec driver which supplies audio playback and record functionality.
+

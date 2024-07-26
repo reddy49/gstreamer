@@ -1,0 +1,24 @@
+/* layer.vsbl - audio container layer */
+/*
+ * Copyright (c) 2013-2016, 2018-2022 Wind River Systems, Inc.
+ *
+ * The right to copy, distribute, modify, or otherwise make use
+ * of this software may be licensed only pursuant to the terms
+ * of an applicable Wind River license agreement.
+ */
+
+/*
+*/
+
+
+Layer AUDIO
+    {
+    SYNOPSIS         audio device libraries
+    HELP             This provides support for audio devices.
+    VERSION          2.0.1.3
+    VENDOR           Wind River
+    FEATURE          MULTIMEDIA
+    OPTIONAL         YES
+    DEFAULT          NO
+    DOC_BUILD        NO
+}
